@@ -33,13 +33,20 @@ const list_products = async filter => {
             <p class="price">Desde COP $${element.price}</>
         </div>
         <div class="card_foot">
-            <span class="rate">
+            <span>
                 <img class="star_icon"
                     src="../resources/icon/rating.svg"
                     height="14px"
                     width="14px"
                 />
                 <span class="rating">${element.rating} (${element.votes})</span>
+            </span>
+            <span class="like">
+                <img class="heart_icon"
+                    src="../resources/icon/heart.svg"
+                    height="14px"
+                    width="14px"
+                />  
             </span>
         </div>
     </div>`
